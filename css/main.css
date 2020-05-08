@@ -1,0 +1,142 @@
+h1 {
+  font-size: 50px;
+  color: white; }
+
+h2 {
+  color: white;
+  font-size: 30px; }
+
+h3 {
+  font-size: 20px;
+  color: white; }
+
+p {
+  color: #ececec;
+  font-size: 16px; }
+
+.header-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(26, 155, 90, 0.8), rgba(26, 155, 90, 0.8)), url("/box_background.png") 50% 50%/cover no-repeat, linear-gradient(#1a9b5a, #1a9b5a);
+  text-align: center;
+  align-self: flex-start; }
+
+.company-name {
+  font-size: 20px;
+  color: #1A9B5A; }
+
+.header-call-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none; }
+
+.header-slogan {
+  padding: 30px 0; }
+
+.header-text {
+  padding: 30px 0 60px 0; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+
+.site-flex-container {
+  display: flex;
+  flex-direction: column; }
+
+.description-page {
+  background-color: #343A40;
+  text-align: center;
+  padding: 100px 0; }
+
+.description-slogan {
+  padding-bottom: 40px; }
+
+.benefits-page {
+  height: 60vh;
+  background: #1A9B5A;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
+.benefits-slogan {
+  padding-bottom: 40px; }
+
+.benefits-icon {
+  height: 100px;
+  width: 100px; }
+
+.benefits-text {
+  padding-top: 30px; }
+
+.about-farms-page {
+  text-align: center;
+  padding: 100px 0;
+  background: linear-gradient(rgba(61, 71, 66, 0.8), rgba(61, 71, 66, 0.8)), url("/fa-blog-new-farmers.jpg") 50% 50%/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center; }
+
+.about-farms-slogan {
+  padding-bottom: 40px; }
+
+.plans-page {
+  text-align: center;
+  background-color: #343A40;
+  padding: 100px 0; }
+
+.plans-slogan {
+  padding-bottom: 40px; }
+
+.plans-sub_title {
+  display: block;
+  padding: 15px 0; }
+
+.plans-text {
+  display: block;
+  height: 100%; }
+
+.contact-page {
+  text-align: center;
+  height: 70vh;
+  background: #1A9B5A;
+  display: flex;
+  align-items: center; }
+
+.contact-slogan {
+  padding-bottom: 30px; }
+
+.contact-frame {
+  max-width: 500px;
+  border-radius: 20px;
+  background: #2bbd74;
+  margin: 0 auto;
+  padding: 20px 0 40px 0; }
+
+.contact-inputs {
+  padding-bottom: 60px;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 600px; }
+  .contact-inputs li {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0; }
+    .contact-inputs li input {
+      width: 100%;
+      background: #1A9B5A;
+      border: none;
+      border-radius: 5px; }
+
+.footer-page {
+  align-self: flex-end;
+  height: 200px;
+  background: #343A40; }

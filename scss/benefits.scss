@@ -1,0 +1,22 @@
+.benefits-page{
+    height: 60vh;
+    background: $green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.benefits-slogan{
+    padding-bottom: $title_bottom_padding;
+
+}
+.benefits-icon{
+    height: 100px;
+    width: 100px;
+    
+}
+.benefits-text{
+    padding-top: 30px;
+    
+}

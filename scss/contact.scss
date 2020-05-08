@@ -1,0 +1,35 @@
+.contact-page{
+    text-align: center;
+    height: 70vh;
+    background: $green;
+    display: flex;
+    align-items: center;
+    
+}
+.contact-slogan{
+    padding-bottom: 30px;
+}
+.contact-frame{
+    max-width: 500px;
+    border-radius: 20px;
+    background: $green_light;
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+}
+.contact-inputs{
+    padding-bottom: 60px;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 600px;
+    li{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+        input{
+            width: 100%;
+            background: $green;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
